@@ -10,7 +10,7 @@ Hosting an in-house Nuget server can be very useful in terms of code-sharing. It
 Nuget relies on *.nuspec file to create the nuget package.
 ### File Structure of *.nuspec:
 - Metadata: It contains all the information about the package. This file has the following general form: 
-![metadata] (docs/metadata.png)
+![metadata] (https://github.com/OggyMishra/NugetServer/blob/master/docs/metadata.png)
 
 - id: id is the unique identifier for a package. It's an case insensitive identifier. it should not contain any spaces and invalid character.
 - version: Version of the package should follow [Major].[Minor].[Patch] pattern. You can also include sub-version as pre-release suffix. For eg. alpha, beta etc.
